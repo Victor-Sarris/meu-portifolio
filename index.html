@@ -16,15 +16,15 @@
         <div class="interface">
             <div class="logo">
                 <a href="">
-                    <img src="images/VS.png" alt="" id="image-header">
+                    <img src="images/logo.png" alt="" id="image-header">
                 </a>
             </div><!--logo-->
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
@@ -35,7 +35,7 @@
         </div> <!--Interface-->
     </header>
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
           <div class="interface">
             <div class="flex">
               
@@ -62,30 +62,30 @@
           </div> <!-- fim interface -->
         </section> <!-- Fim topo-do-site -->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
           <div class="interface">
             <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
             <div class="flex">
               <div class="especialidades-box">
                 <i class="bi bi-code-slash"></i>
-                <h3>Website</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit labore ducimus architecto possimus neque qui, quae unde cum commodi quaerat nulla voluptatem asperiores quod voluptatibus nam tenetur. Doloremque, quas?</p>
+                <h3>Desenvolvimento Web</h3>
+                <p>Transformo ideias em experiências digitais através do desenvolvimento de aplicações web modernas, responsivas e performáticas. Utilizo tecnologias como HTML, CSS, JavaScript, e frameworks como React ou Vue.js para criar interfaces intuitivas</p>
               </div> <!-- fim especialidade-box -->
               <div class="especialidades-box">
                 <i class="bi bi-front"></i>
-                <h3>Frontend</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit labore ducimus architecto possimus neque qui, quae unde cum commodi quaerat nulla voluptatem asperiores quod voluptatibus nam tenetur. Doloremque, quas?</p>
+                <h3>Sistemas Embarcados</h3>
+                <p>Trabalho com o desenvolvimento de soluções em hardware e firmware, integrando microcontroladores, sensores e atuadores para criar sistemas inteligentes e automatizados. Tenho experiência com plataformas como Raspberry Pi, ESP32 e STM32, além de sistemas operacionais como FreeRTOS. Ideal para projetos de automação, IoT e controle de dispositivos físicos.</p>
               </div> <!-- fim especialidade-box -->
               <div class="especialidades-box">
                 <i class="bi bi-question-lg"></i>
-                <h3>Ainda não sei</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit labore ducimus architecto possimus neque qui, quae unde cum commodi quaerat nulla voluptatem asperiores quod voluptatibus nam tenetur. Doloremque, quas?</p>
+                <h3>Inteligência Artificial Aplicada</h3>
+                <p>Exploro o potencial da inteligência artificial para criar sistemas mais inteligentes e autônomos. Desenvolvo aplicações com reconhecimento facial, assistentes virtuais e modelos preditivos</p>
               </div> <!-- fim especialidade-box -->
             </div>
           </div>
-        </section>
+        </section> <!-- Fim especialidades -->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
           <div class="interface">
             <div class="flex">
               <div class="img-sobre">
@@ -94,25 +94,89 @@
               <div class="txt-sobre">
                 <h2>Muito Prazer, <span>Sou Victor Sarrís.</span>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nemo sapiente doloremque voluptatum velit iure eos sed ipsa eius excepturi nesciunt, mollitia repellat? Sequi doloremque cumque atque amet repellat veritatis!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet neque blanditiis fugiat quia illum provident quisquam beatae voluptatibus fuga autem dolore corrupti, ut eligendi! Nostrum obcaecati odit esse! Laborum?</p>
+                <p>Olá, meu nome é Victor Sarrís e atualmente estou cursando Análise e Desenvolvimentode de Sistemas no IFPI Campus Floriano</p>
+                <br>
+                <p>Sou de São Francisco do Piauí. Apaixonado por tecnologia desde pequeno, buscando sempre conhecimento e inovar de forma positiva no mercado. Abaixo você encontra minhas redes sociais 🤓🖖</p>
 
                 <div class="btn-social">
-                  <a href="https://www.instagram.com/v1ctor.zx7/">
+                  <a href="https://www.instagram.com/v1ctor.zx7/" target="_blank" rel="external">
                     <button>
                       <i class="bi bi-instagram"></i>
                     </button>
                   </a>
-                  <a href="https://www.linkedin.com/in/victorsarris/">
+                  <a href="https://www.linkedin.com/in/victorsarris/" target="_blank" rel="external">
                     <button>
                       <i class="bi bi-linkedin"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/Victor-Sarris" target="_blank" rel="external">
+                    <button>
+                      <i class="bi bi-github"></i>
                     </button>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> <!-- Fim sobre -->
+
+        <section class="portifolio" id="projetos">
+          <div class="interface">
+            <h2 class="titulo">PRINCIPAIS <span>PROJETOS</span></h2>
+            <div class="flex">
+              <a href="https://linkbio.co/therapy" target="_blank" rel="external">
+                <div class="img-port" style="background-image: url(images/leading-page.jpg);">
+                  <div class="overlay">Therapy</div>
+                </div>
+              </a>
+              <a href="https://linkbio.co/feirashop" target="_blank" rel="external">
+                <div class="img-port" style="background-image: url(images/image.png);">
+                  <div class="overlay">FeiraShop</div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="img-port" style="background-image: url(images/image\ copy.png);">
+                  <div class="overlay">Projeto 3</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section> <!-- Fim portifolio -->
     </main>
+
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="images/logo.png" alt="" id="footer-logo">
+            </div>
+            <div class="btn-social">
+              <a href="https://www.instagram.com/v1ctor.zx7/" target="_blank" rel="external">
+                <button>
+                  <i class="bi bi-instagram"></i>
+                </button>
+              </a>
+              <a href="https://www.linkedin.com/in/victorsarris/" target="_blank" rel="external">
+                <button>
+                  <i class="bi bi-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/Victor-Sarris" target="_blank" rel="external">
+                <button>
+                  <i class="bi bi-github"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div> <!--fim line-footer -->
+        <div class="line-footer borda">
+          <p>
+            <i class="bi bi-envelope-at"></i>
+            <a href="mailto:devvictorsarris@gmail.com" target="_blank"> devvictorsarris@gmail.com</a>
+          </p>
+        </div> <!--fim line-footer -->
+      </div> <!-- fim interface -->
+    </footer>
 </body>
 </html>
