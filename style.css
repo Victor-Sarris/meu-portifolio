@@ -92,6 +92,14 @@ header a:hover {
     transition: .2s;
 }
 
+#bnt-header a button {
+    background-color: black;
+    color: black;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+}
+
 header nav ul {
     list-style-type: none;
 }
@@ -312,6 +320,10 @@ footer .line-footer p a {
     text-decoration: none;
 }
 
+#madeIn{
+    color: #fff
+}
+
 /* RESPONSIVIDADE DE TELA */
 
 @media screen and (max-width: 1020px) {
@@ -328,7 +340,7 @@ footer .line-footer p a {
     /* CABEÇALHO */
     .menu-desktop,
     .btn-contato,
-    #image-header{
+    #image-header {
         display: none;
     }
 
@@ -401,17 +413,17 @@ footer .line-footer p a {
         gap: 60px;
     }
 
-    section.portifolio .titulo{
+    section.portifolio .titulo {
         margin-bottom: 50px;
         font-size: 30px;
     }
 
     /* FOOTER */
-    footer .flex{
+    footer .flex {
         flex-direction: column;
     }
 
-    footer .line-footer{
+    footer .line-footer {
         text-align: center;
     }
 }

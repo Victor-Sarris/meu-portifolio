@@ -29,7 +29,7 @@
           <li><a href="#projetos">Projetos</a></li>
         </ul>
       </nav>
-      <div class="btn-contato">
+      <div class="btn-contato" id="bnt-header">
         <a href="#">
           <button>Contato</button>
         </a>
@@ -50,7 +50,7 @@
               sonhos.
             </p>
 
-            <div class="btn-contato">
+            <div class="btn-contato" onclick="clicouBtn()">
               <a href="#">
                 <button>Entre em contato</button>
               </a>
@@ -182,13 +182,17 @@
         </div>
       </div> <!--fim line-footer -->
       <div class="line-footer borda">
-        <p>
-          <i class="bi bi-envelope-at"></i>
-          <a href="mailto:devvictorsarris@gmail.com" target="_blank"> devvictorsarris@gmail.com</a>
-        </p>
+        <div class="flex">
+          <p>
+            <i class="bi bi-envelope-at"></i>
+            <a href="mailto:devvictorsarris@gmail.com" target="_blank"> devvictorsarris@gmail.com</a>
+          </p>
+          <p id="madeIn">Victor Sarrís | 2005 🪽</p>
+        </div>
       </div> <!--fim line-footer -->
     </div> <!-- fim interface -->
   </footer>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
