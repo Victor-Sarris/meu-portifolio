@@ -238,6 +238,10 @@ section.sobre #img-sobre {
     text-align: justify;
 }
 
+#grafico{
+    margin-top: 100px;
+}
+
 /* ESTILO DO PORTIFOLIO */
 
 section.portifolio {
@@ -396,6 +400,10 @@ footer .line-footer p a {
         width: 400px;
         border-radius: 20px;
         margin: 0 auto;
+    }
+
+    #grafico{
+        width: 650px;
     }
 
     /* PORTIFÓLIO */
